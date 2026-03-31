@@ -1,0 +1,68 @@
+[
+  {
+    "id": "p001",
+    "name": "Pro Resume Builder",
+    "description": "Create professional resumes with ease using our AI-powered builder.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📝"
+  },
+  {
+    "id": "p002",
+    "name": "Monthly Marketing Suite",
+    "description": "Complete monthly toolkit for your digital marketing campaigns.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Social media scheduling", "Analytics dashboard", "Content calendar"],
+    "icon": "📊"
+  },
+  {
+    "id": "p003",
+    "name": "Yearly Cloud Storage",
+    "description": "Secure and reliable cloud storage with unlimited access.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["1TB storage", "24/7 support", "Multi-device sync"],
+    "icon": "☁️"
+  },
+  {
+    "id": "p004",
+    "name": "Team Collaboration Pro",
+    "description": "Enhance teamwork with real-time collaboration tools and chat.",
+    "price": 49.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Real-time chat", "Task management", "File sharing"],
+    "icon": "🤝"
+  },
+  {
+    "id": "p005",
+    "name": "E-commerce Starter Kit",
+    "description": "Everything you need to launch your online store quickly.",
+    "price": 59.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Store templates", "Payment integration", "Inventory tracking"],
+    "icon": "🛒"
+  },
+  {
+    "id": "p006",
+    "name": "Annual SEO Booster",
+    "description": "Optimize your website with yearly SEO audits and recommendations.",
+    "price": 149.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["SEO audits", "Keyword tracking", "Competitor analysis"],
+    "icon": "🚀"
+  }
+]
