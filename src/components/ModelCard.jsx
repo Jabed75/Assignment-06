@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const ModelCard = ({model, cards, setCards}) => {
         const[isBuy,setIsBuy]=useState(false)
         const handleBuyed =()=>{
             setIsBuy(true)
             setCards([...cards, model])
+            toast.success("Item add to card")
         }
     return (
         <div className='shadow-lg rounded-lg border'>

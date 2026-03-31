@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 
 
 const Card = ({cards, setCards}) => {
@@ -5,17 +6,21 @@ const Card = ({cards, setCards}) => {
     const totalPrice = cards.reduce((sum, item) => sum + item.price,0)
     const handlePayment=()=>{
         setCards([])
+        toast.success("Payment Succesfully")
     };
     const handleRemove=(item)=>{
         console.log(item);
         const filteredArray = cards.filter(c => c.id !== item.id)
         setCards(filteredArray)
+        toast.success("Item Remove succesfully")
     }
     return (
-        <div className="p-10 mb-10">
+        <div className="p-10 max-w-7xl mx-auto">
             <h1 className="text-2xl font-bold">Your Card</h1>
             {
-                cards.length === 0 ? <p className="text-center text-2xl p-5">Card is empty</p> :
+                cards.length === 0 ? <p className="text-center text-2xl p-5 font-bold">Card is empty
+                 </p> :
+                
                 <>
                  <div className="space-y-5 mt-5">
              {
