@@ -32,7 +32,7 @@ function App() {
       
      </div>
      {activeTab==="Product" &&<Models modelPromise={modelPromise} cards={cards} setCards={setCards}/>}
-      {activeTab ==="card" &&<Card cards={cards}/>}
+      {activeTab ==="card" &&<Card cards={cards} setCards={setCards}/>}
     </>
   )
 }
