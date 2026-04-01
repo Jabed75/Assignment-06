@@ -1,5 +1,6 @@
 import React from 'react';
 import BannerImage from "../assets/banner.png";
+import PlayBtn from "../assets/Play.png"
 
 const Banner = () => {
     return (
@@ -32,8 +33,8 @@ const Banner = () => {
              
             </button>
             <button className=" transition-all px-8 py-4 rounded-2xl font-semibold text-lg shadow-xl  flex items-center gap-3 group text-blod">
-              Watch Demo
-              <span className="group-hover:translate-x-1 transition">→</span>
+              <img src={PlayBtn} />Watch Demo
+              <span className="group-hover:translate-x-1 transition"></span>
             </button>
           </div>
         </div>

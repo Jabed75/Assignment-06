@@ -27,7 +27,7 @@ const Card = ({cards, setCards}) => {
                 cards.map(item=>
                 <div className=" border rounded-lg p-3" key={item.id}>
                     <div className="flex items-center gap-2">
-                        <h2 className="">{item.icon}</h2>
+                        <h2 className="bg-blue-600 text-white">{item.icon}</h2>
                           <h2 className="text-xl font-semibold">{item.name}</h2>
                     </div>
                     <h2 className="font-bold text-gray-400  text-2xl">{item.price}</h2>

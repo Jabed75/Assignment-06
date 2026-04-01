@@ -29,7 +29,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-5">
-        <img src={ViteImage} />
+        <img src={ViteImage} className='t'/>
         <button className='text-2xl'>Login</button>
         <a className="btn bg-red-500 rounded-full text-white">Get in Touch</a>
       </div>
