@@ -11,6 +11,7 @@ import { ToastContainer } from 'react-toastify'
 import Section from './components/Section'
 import Sectoin1 from './components/Sectoin1'
 import Section2 from './components/Section2'
+import Footersection from './components/Footersection'
 
 const getModels = async()=>{
  const res = await fetch("/models.json")
@@ -43,6 +44,7 @@ function App() {
          <Section/>
          <Sectoin1/>
          <Section2/>
+         <Footersection/>
     </>
   )
 }
