@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
       <div className="navbar-start">
-        <div className="flex items-center gap-1 font-bold text-5xl linear-gradient">
+        <div className="flex items-center gap-1 font-bold text-3xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
           DigiTools
         </div>
       </div>
@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="navbar-end gap-5">
         <img src={ViteImage} className='t'/>
         <button className='text-2xl'>Login</button>
-        <a className="btn bg-red-500 rounded-full text-white">Get in Touch</a>
+        <a className="btn bg-red-500 rounded-full text-white">Get in Touch</a> 
       </div>
     </div>
     );

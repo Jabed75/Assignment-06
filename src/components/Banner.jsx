@@ -16,10 +16,11 @@ const Banner = () => {
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter ">
            Supercharge Your
             <br />
-            
-              Digital Workflow
-            
           </h1>
+          <h1 className='text-5xl bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent'>
+             Digital Workflow
+          </h1>
+          
 
           <p className="text-lg  max-w-lg">
             Access premium AI tools, design assets, templates, and productivity
