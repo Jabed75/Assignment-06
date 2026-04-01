@@ -2,7 +2,8 @@ import React from 'react';
 
 const Sectoin1 = () => {
     return (
-        <div className='py-10 max-w-7xl mx-auto'>
+       
+          <div className='py-10 max-w-7xl mx-auto '>
             <div className='text-center'>
                 <h2 className='text-5xl font-bold'>Simple, Transparent Pricing</h2>
             <p className='mb-10 p-5'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
@@ -58,7 +59,7 @@ const Sectoin1 = () => {
     </button>
   </div>
 
-  {/* Enterprise */}
+  
   <div className="border rounded-2xl p-6 w-72 shadow-md flex flex-col justify-between bg-white hover:shadow-xl transition">
 
     <div>
@@ -83,6 +84,7 @@ const Sectoin1 = () => {
 
 </div>
  </div>
+      
     );
 };
 

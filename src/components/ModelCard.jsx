@@ -20,7 +20,7 @@ const ModelCard = ({model, cards, setCards}) => {
                     <div className="">
                         <div className='border-zinc-300 flex justify-between items-center'>
                         <h3 className='text-2xl font-bold'>{model.icon}</h3>
-                        <h3 className="bg-base-300 rounded-lg">{model.tag}</h3>
+                        <h3 className="bg-[#4F39F6] text-white rounded-lg">{model.tag}</h3>
                     </div>
                     </div>
                     <div className='p-4'>
