@@ -1,11 +1,11 @@
 import React from 'react';
-import ViteImage from "../assets/vite.svg";
+import ViteImage from "../assets/products/shopping-cart.png";
 
 const Navbar = () => {
     return (
         <div className="navbar">
       <div className="navbar-start">
-        <div className="flex items-center gap-1 font-bold text-xl">
+        <div className="flex items-center gap-1 font-bold text-5xl linear-gradient">
           DigiTools
         </div>
       </div>
@@ -29,8 +29,8 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-5">
-        <img src={ViteImage} alt="" />
-        <button>Login</button>
+        <img src={ViteImage} />
+        <button className='text-2xl'>Login</button>
         <a className="btn bg-red-500 rounded-full text-white">Get in Touch</a>
       </div>
     </div>

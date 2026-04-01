@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner1 = () => {
     return (
-        <div className='bg-[#4F39F6] min-h-[20vh]' style={{ marginBottom: '200px' }}>
+        <div className='bg-[#4F39F6] min-h-[40vh] p-20' style={{ marginBottom: '200px' }}>
            <div className='flex justify-around items-center'>
              <div>
                 <h1 className='text-2xl text-white'>50K+</h1>
