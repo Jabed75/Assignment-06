@@ -3,7 +3,7 @@ import ModelCard from './ModelCard';
 
 const Models = ({modelPromise, cards, setCards}) => {
     const models=use(modelPromise)
-    
+
  
     return (
         <div className='py-10 max-w-7xl mx-auto'>

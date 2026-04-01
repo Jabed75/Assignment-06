@@ -5,7 +5,14 @@ const ModelCard = ({model, cards, setCards}) => {
         const[isBuy,setIsBuy]=useState(false)
         const handleBuyed =()=>{
             setIsBuy(true)
-            setCards([...cards, model])
+            
+    const isFound=cards.find((item)=> item.id === ModelCard)
+        if(isFound){
+            toast.error("item already in card!")
+            return;
+        }
+        setCards([...cards, model])
+
             toast.success("Item add to card")
         }
     return (

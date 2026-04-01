@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="navbar">
       <div className="navbar-start">
         <div className="flex items-center gap-1 font-bold text-xl">
-          <img className="w-10" src="/logo.png" /> DigiTools
+          DigiTools
         </div>
       </div>
       <div className="navbar-center hidden md:flex">
