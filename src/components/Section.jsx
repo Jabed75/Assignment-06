@@ -1,5 +1,7 @@
 import React from 'react';
 import UserImg from "../assets/user.png";
+import PackgeImg from "../assets/package.png"
+import RockedImg from "../assets/rocket.png"
 const Section = () => {
   return (
     <div className='py-10 max-w-7xl mx-auto'>
@@ -32,7 +34,7 @@ const Section = () => {
     </span>
 
     <div className="flex justify-center mb-4">
-      <img src={UserImg} className="w-10 h-10" />
+      <img src={PackgeImg} className="w-10 h-10" />
     </div>
 
     <h2 className="font-bold text-lg">Choose Products</h2>
@@ -47,7 +49,7 @@ const Section = () => {
     </span>
 
     <div className="flex justify-center mb-4">
-      <img src={UserImg} className="w-10 h-10" />
+      <img src={RockedImg} className="w-10 h-10" />
     </div>
 
     <h2 className="font-bold text-lg">Start Creating</h2>

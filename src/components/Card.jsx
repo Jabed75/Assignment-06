@@ -18,7 +18,7 @@ const Card = ({cards, setCards}) => {
         <div className="p-10 max-w-7xl mx-auto">
             <h1 className="text-2xl font-bold">Your Card</h1>
             {
-                cards.length === 0 ? <p className="text-center text-2xl p-5 font-bold">Card is empty
+                cards.length === 0 ? <p className="text-center text-2xl p-5 font-bold">Card is Not  empty
                  </p> :
                 
                 <>
